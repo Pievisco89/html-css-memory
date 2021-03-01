@@ -10,15 +10,55 @@
   clear: both;
 }
 
-.contenitore{
-  width: 80%;
-  margin: auto;
-  font-family: 'Nerko One', cursive;
+body{
+  background-color: rgb(53, 230, 230);  font-family: 'Nerko One';
 }
 
-.row{
-  width: 150px;
-  height: 200px;
+.contenitore{
+  width: 70%;
+  margin: auto;
+}
+
+main{
+  margin: auto;
+}
+
+h1{
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.carta{
+  width: 250px;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
   background-image: url('../img/pattern.png');
-  background-size: cover;
+  background-size: contain;
+}
+
+img{
+  width: 80%;
+  height: 70%
+}
+
+.oggetto{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+  text-align: center;
+  background-color: white;
+}
+
+.carta:hover .oggetto{
+  display: block;
+}
+
+.oggetto h3{
+  font-size: 40px;
+  color: rgb(221, 31, 31);
 }
