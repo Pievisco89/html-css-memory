@@ -62,3 +62,7 @@ img{
   font-size: 40px;
   color: rgb(221, 31, 31);
 }
+
+.oggetto h3:hover{
+  color: yellow;
+}
