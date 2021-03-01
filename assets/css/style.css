@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.contenitore{
+  width: 80%;
+  margin: auto;
+  font-family: 'Nerko One', cursive;
+}
+
+.row{
+  width: 150px;
+  height: 200px;
+  background-image: url('../img/pattern.png');
+  background-size: cover;
+}
